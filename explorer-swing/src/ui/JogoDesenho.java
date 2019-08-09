@@ -35,7 +35,7 @@ public class JogoDesenho extends JPanel implements KeyListener {
     private BufferedImage chao;
     private BufferedImage pilar;
     private BufferedImage teto;
-    private String path = "insert path of res folder here";
+    private String path = "destino da pasta res/";
     
     public JogoDesenho(Tabuleiro tabuleiro, Heroi heroi, JLabel lblVida, JLabel lblArma) throws IOException {
         this.tabuleiro = tabuleiro;

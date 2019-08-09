@@ -13,7 +13,7 @@ import model.*;
 
 public class FileUtil {
     
-    private String path = "insert path of res folder here";
+    private String path = "destino do arquivo game-teste.txt";
     
     public int getLinha() throws FileNotFoundException, IOException{ //retorna o número de linhas do arquivo
         BufferedReader reader = new BufferedReader(new FileReader(path));
